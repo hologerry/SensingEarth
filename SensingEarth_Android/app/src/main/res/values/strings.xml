@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Sensing Earth</string>
+    <string name="intro_text">Please input port:</string>
+    <string name="port_label">Port:</string>
+    <string name="connect_button">Connect</string>
+    <string name="state_label">State:</string>
+    <string name="ip_adress_label">IP:</string>
+    <string name="configuration_label">Sensor Configuration:</string>
+
+    <string name="new_configuration_button">new</string>
+    <string name="start_sensing_button">Start</string>
+
+
+    <string name="new_configuration_label">New Sensor Configuration</string>
+    <string name="configuration_name_label">Name:</string>
+    <string name="configuration_intro">Input name and double value\nLow &#062;&#061; High to disable the sensor</string>
+    <string name="no_sensor">All sensors are off!</string>
+    <string name="tmp_label">Temp</string>
+    <string name="light_label">Light</string>
+    <string name="noise_label">Noise</string>
+    <string name="create_cfg_button">Create</string>
+    <string name="create_cfg_name_error">Exsiting configuration with the same name, Change name!</string>
+    <string name="create_cfg_input_error">Input error!</string>
+
+    <string name="current_data_label">Current Data:</string>
+</resources>
