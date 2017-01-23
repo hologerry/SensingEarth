@@ -13,6 +13,12 @@ An IoT system, final project of the Embedded Computing System course. It contain
 * User can change sensor configuration any time to care about defferent datas
 * (Partially) Material Design
 
+## Demo
+
+![](demo_config.png)
+
+![](demo_nosie.png)
+
 ## TODO
 
 * [ ] Totally Material Design: add Material transition animations and Activity animations

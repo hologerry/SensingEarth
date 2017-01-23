@@ -14,6 +14,12 @@
 * 用户可以随时更改传感器配置信息
 * （部分的）Material Design
 
+## Demo
+
+![](demo_config.png)
+
+![](demo_nosie.png)
+
 ## TODO
 
 * [ ] 完全的 Material Design: 添加 Material 变化动画和 Activity 切换动画
