@@ -22,7 +22,17 @@
 
 ## TODO
 
+* [ ] iOS 版 app
+* [ ] Server side
+
+### Refactor:
+
 * [ ] 完全的 Material Design: 添加 Material 变化动画和 Activity 切换动画
+
+
+* [ ] 改善项目结构
+* [ ] 没有特定的传感器名
+* [ ] 添加数据库存储传感器配置和传感器数据
 
 ## Copyright
 
