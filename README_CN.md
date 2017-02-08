@@ -22,7 +22,9 @@
 
 * [ ] iOS 版 app
 * [ ] 服务器端
+
 ### Refactor:
+
 * [ ] 完全的 Material Design: 添加 Material 变化动画和 Activity 切换动画
 * [ ] 改善项目结构
 * [ ] 没有特定的传感器名

@@ -21,7 +21,9 @@ An IoT system, final project of the Embedded Computing System course. It contain
 
 * [ ] iOS version app
 * [ ] Server side
+
 ### Refactor:
+
 * [ ] Material Design: add Material transition animations and Activity animations
 * [ ] Improve project structure
 * [ ] No specific sensor
