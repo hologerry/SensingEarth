@@ -15,24 +15,18 @@ An IoT system, final project of the Embedded Computing System course. It contain
 
 ## Demo
 
-![](demo_config.png)
-
-![](demo_nosie.png)
+![](demo_config.png) ![](demo_nosie.png)
 
 ## TODO
 
 * [ ] iOS version app
 * [ ] Server side
-
 ### Refactor:
-
 * [ ] Material Design: add Material transition animations and Activity animations
-
-
 * [ ] Improve project structure
 * [ ] No specific sensor
 * [ ] Add database(sensor configuration, sensor data)
 
 ## Copyright
 
-The Android app part is developed by [me](https://github.com/eveouo), and the CC3200 board part is developed by my roommate @范坤杰 .  All rights reversed.
+The Android app part is developed by [me](https://github.com/notgao), and the CC3200 board part is developed by my roommate @范坤杰 .  All rights reversed.

@@ -16,24 +16,19 @@
 
 ## Demo
 
-![](demo_config.png)
-
-![](demo_nosie.png)
+![](demo_config.png) ![](demo_nosie.png)
 
 ## TODO
 
 * [ ] iOS 版 app
-* [ ] Server side
-
+* [ ] 服务器端
 ### Refactor:
-
 * [ ] 完全的 Material Design: 添加 Material 变化动画和 Activity 切换动画
-
-
 * [ ] 改善项目结构
 * [ ] 没有特定的传感器名
 * [ ] 添加数据库存储传感器配置和传感器数据
 
+
 ## Copyright
 
-此系统 Android 应用程序部分由[我](https://github.com/eveouo)开发，CC3200 开发板程序由室友 @范坤杰 开发，保留所有权利。
+此系统 Android 应用程序部分由[我](https://github.com/notgao)开发，CC3200 开发板程序由室友 @范坤杰 开发，保留所有权利。
