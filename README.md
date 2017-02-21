@@ -25,7 +25,7 @@ An IoT system, final project of the Embedded Computing System course. It contain
 ### Refactor:
 
 * [ ] Material Design: add Material transition animations and Activity animations
-* [ ] Improve project structure
+* [x] Improve project structure
 * [ ] No specific sensor
 * [ ] Add database(sensor configuration, sensor data)
 
