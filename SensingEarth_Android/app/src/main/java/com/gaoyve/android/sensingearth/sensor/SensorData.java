@@ -1,4 +1,4 @@
-package com.gaoyve.android.sensingearth;
+package com.gaoyve.android.sensingearth.sensor;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * Copyright © 2016 Gerry. All rights reserved.
  */
 
-public class SensorData implements Serializable{
+public class SensorData implements Serializable {
     private String mType;
     private int mDataMaxNum;
     private int mCurrentStoredNum = 0;

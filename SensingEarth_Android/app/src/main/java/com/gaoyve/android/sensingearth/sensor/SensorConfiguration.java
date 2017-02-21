@@ -1,4 +1,4 @@
-package com.gaoyve.android.sensingearth;
+package com.gaoyve.android.sensingearth.sensor;
 
 import java.io.Serializable;
 import java.util.UUID;

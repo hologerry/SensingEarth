@@ -1,10 +1,12 @@
-package com.gaoyve.android.sensingearth;
+package com.gaoyve.android.sensingearth.chart;
 
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.gaoyve.android.sensingearth.R;
 
 import java.util.ArrayList;
 

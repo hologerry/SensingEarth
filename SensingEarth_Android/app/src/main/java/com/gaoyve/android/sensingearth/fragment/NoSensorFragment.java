@@ -1,4 +1,4 @@
-package com.gaoyve.android.sensingearth;
+package com.gaoyve.android.sensingearth.fragment;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -8,6 +8,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.gaoyve.android.sensingearth.R;
+import com.gaoyve.android.sensingearth.activity.SensingActivity;
 
 /**
  * SensingEarth

@@ -1,4 +1,4 @@
-package com.gaoyve.android.sensingearth;
+package com.gaoyve.android.sensingearth.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,7 +7,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import java.text.DecimalFormat;
+import com.gaoyve.android.sensingearth.chart.PointChart;
+import com.gaoyve.android.sensingearth.R;
+import com.gaoyve.android.sensingearth.sensor.SensorData;
+import com.gaoyve.android.sensingearth.activity.SensingActivity;
+
 import java.util.ArrayList;
 
 /**

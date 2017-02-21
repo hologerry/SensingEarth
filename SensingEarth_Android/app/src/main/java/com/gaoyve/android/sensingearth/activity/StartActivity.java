@@ -1,4 +1,4 @@
-package com.gaoyve.android.sensingearth;
+package com.gaoyve.android.sensingearth.activity;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -20,6 +20,11 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import com.gaoyve.android.sensingearth.R;
+import com.gaoyve.android.sensingearth.sensor.SensorConfiguration;
+import com.gaoyve.android.sensingearth.sensor.SensorConfigurationLab;
+import com.gaoyve.android.sensingearth.socket.SocketChannelService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -93,7 +98,7 @@ public class StartActivity extends AppCompatActivity {
 
     private void StartAndBindService() {
         //If the service is running when the activity starts, we want to automatically bind to it.
-        if (!SocketChannelService.isServiceRuning) {
+        if (!SocketChannelService.isServiceRuning()) {
             startService(new Intent(StartActivity.this, SocketChannelService.class));
             System.out.println("StartAndBindService");
         }

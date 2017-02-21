@@ -1,4 +1,4 @@
-package com.gaoyve.android.sensingearth;
+package com.gaoyve.android.sensingearth.socket;
 
 import android.app.Service;
 import android.content.Intent;
@@ -9,6 +9,8 @@ import android.os.Message;
 import android.os.Messenger;
 import android.os.RemoteException;
 import android.util.Log;
+
+import com.gaoyve.android.sensingearth.activity.StartActivity;
 
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
@@ -26,17 +28,20 @@ import java.util.ArrayList;
 
 public class SocketChannelService extends Service {
     // Msg what
-    static final int MSG_REGISTER_ACTIVITY = 1;
-    static final int MSG_UNREGISTER_ACTIVITY = 2;
-    static final int MSG_SEND_TO_CLIENT = 3;  // MSG_FROM_ACTIVITY
-    static final int MSG_READ_FROM_CLIENT = 4;  // MSG_SEND_TO_ACTIVITY
-    static final int SOCKET_INFO_IP = 5;
+    public static final int MSG_REGISTER_ACTIVITY = 1;
+    public static final int MSG_UNREGISTER_ACTIVITY = 2;
+    public static final int MSG_SEND_TO_CLIENT = 3;  // MSG_FROM_ACTIVITY
+    public static final int MSG_READ_FROM_CLIENT = 4;  // MSG_SEND_TO_ACTIVITY
+    public static final int SOCKET_INFO_IP = 5;
     // Bundle str1 arg
-    static final String MSG_SEND_TO_ACTIVITY = "com.gaoyve.android.sensingearth.msg1";
-    static final String MSG_FROM_ACTIVITY = "com.gaoyve.android.sensingearth.msg2";
-    static final String CLIENT_IP = "com.gaoyve.android.sensingearth.addr";
+    public static final String MSG_SEND_TO_ACTIVITY = "com.gaoyve.android.sensingearth.msg1";
+    public static final String MSG_FROM_ACTIVITY = "com.gaoyve.android.sensingearth.msg2";
+    public static final String CLIENT_IP = "com.gaoyve.android.sensingearth.addr";
 
     static boolean isServiceRuning = false;
+    public static boolean isServiceRuning() {
+        return isServiceRuning;
+    }
 
     private ServerSocketChannel mServerSocketChannel;
     private SocketChannel mSocketChannel;

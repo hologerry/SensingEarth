@@ -31,7 +31,7 @@
                     android:layout_width="10dp"
                     android:layout_height="match_parent"/>
 
-                <com.gaoyve.android.sensingearth.PointChart
+                <com.gaoyve.android.sensingearth.chart.PointChart
                     android:id="@+id/point_chart"
                     android:layout_width="match_parent"
                     android:layout_height="220dp"/>

@@ -1,16 +1,16 @@
-package com.gaoyve.android.sensingearth;
+package com.gaoyve.android.sensingearth.activity;
 
 import android.os.Bundle;
-import android.renderscript.Double2;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.View;
-import android.view.inputmethod.EditorInfo;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.gaoyve.android.sensingearth.R;
+import com.gaoyve.android.sensingearth.sensor.SensorConfigurationLab;
 
 /**
  * SensingEarth

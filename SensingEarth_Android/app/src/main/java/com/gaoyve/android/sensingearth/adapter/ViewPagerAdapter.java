@@ -1,9 +1,12 @@
-package com.gaoyve.android.sensingearth;
+package com.gaoyve.android.sensingearth.adapter;
 
-import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.gaoyve.android.sensingearth.fragment.NoSensorFragment;
+import com.gaoyve.android.sensingearth.fragment.SensorFragment;
+import com.gaoyve.android.sensingearth.sensor.SensorData;
 
 import java.util.ArrayList;
 
